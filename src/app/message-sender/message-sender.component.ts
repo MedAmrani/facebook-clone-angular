@@ -12,4 +12,8 @@ export class MessageSenderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  handleSubmit(){
+    
+  }
+
 }

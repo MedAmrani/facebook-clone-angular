@@ -12,7 +12,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarRowComponent } from './sidebar-row/sidebar-row.component';
 import { FeedComponent } from './feed/feed.component';
 import { StoryReelComponent } from './story-reel/story-reel.component';
-import { MessageSenderComponent } from './message-sender/message-sender.component'
+import { MessageSenderComponent } from './message-sender/message-sender.component';
+import { PostComponent } from './post/post.component';
+import { StoryReelGlobalComponent } from './story-reel-global/story-reel-global.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { MessageSenderComponent } from './message-sender/message-sender.componen
     SidebarRowComponent,
     FeedComponent,
     StoryReelComponent,
-    MessageSenderComponent
+    MessageSenderComponent,
+    PostComponent,
+    StoryReelGlobalComponent
   ],
   imports: [
     BrowserModule,

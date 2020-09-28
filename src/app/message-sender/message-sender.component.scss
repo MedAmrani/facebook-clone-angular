@@ -6,15 +6,7 @@
     border: 5px solid #2e81f4;
 
 }
-.messageSender{
-    display: flex;
-    margin-top: 30px;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
-    width: 100%;
-}
+
 
 .messageSender__top {
     display: flex;
@@ -42,6 +34,7 @@
 
 .messageSender__input {
     flex: 1;
+    width: 300px;
 }
 
 
@@ -72,3 +65,21 @@
     margin-bottom: 0px;
     margin-left: 10px;
 }
+
+
+.messageSender {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100% ;
+}
+
+
+
+
+
+
+
