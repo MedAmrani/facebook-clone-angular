@@ -11,7 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarRowComponent } from './sidebar-row/sidebar-row.component';
 import { FeedComponent } from './feed/feed.component';
-import { StoryReelComponent } from './story-reel/story-reel.component'
+import { StoryReelComponent } from './story-reel/story-reel.component';
+import { MessageSenderComponent } from './message-sender/message-sender.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { StoryReelComponent } from './story-reel/story-reel.component'
     SidebarComponent,
     SidebarRowComponent,
     FeedComponent,
-    StoryReelComponent
+    StoryReelComponent,
+    MessageSenderComponent
   ],
   imports: [
     BrowserModule,
