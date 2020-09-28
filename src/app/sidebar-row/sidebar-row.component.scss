@@ -1,0 +1,28 @@
+img {
+    border-radius: 50%;
+    height: 30px;
+
+}
+
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarRow > h4 {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebarRow > .mat-icon {
+    font-size: xx-large;
+    color: #2e81f4;
+}

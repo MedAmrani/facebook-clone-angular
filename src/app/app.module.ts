@@ -7,13 +7,21 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { SidebarRowComponent } from './sidebar-row/sidebar-row.component';
+import { FeedComponent } from './feed/feed.component';
+import { StoryReelComponent } from './story-reel/story-reel.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    SidebarComponent,
+    SidebarRowComponent,
+    FeedComponent,
+    StoryReelComponent
   ],
   imports: [
     BrowserModule,
